@@ -34,13 +34,13 @@ flowchart LR
 
 ## 快速開始
 
-以下命令適用於 Windows PowerShell。請先安裝 Git、64 位元 Python 3.10 和 [Ollama for Windows](https://docs.ollama.com/windows)，並準備具備 `gpt-4o-mini` 存取權限的 OpenAI API 金鑰。Clone 時需要使用可存取此私人 repo 的 GitHub 帳號。
+以下命令適用於 Windows PowerShell。請先安裝 Git、64 位元 Python 3.10 和 [Ollama for Windows](https://docs.ollama.com/windows)，並準備具備 `gpt-4o-mini` 存取權限的 OpenAI API 金鑰。
 
 ### 1. 取得專案並安裝依賴
 
 ```powershell
-git clone https://github.com/bloodtrail0511/RAG.git
-Set-Location RAG
+git clone https://github.com/bloodtrail0511/interactive-college-career-guide.git
+Set-Location interactive-college-career-guide
 py -3.10 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt streamlit==1.38.0 openai==1.44.0 ollama==0.3.3
 ```
